@@ -1,6 +1,5 @@
 #Paso 1: Elige situaciones del mundo real que puedan ser modeladas mediante POO
 #......... Gestión de Mascotas en una Clínica Veterinaria............
-#  Versión 1 se creo clases simples como dueño y mascota con solo atributos 
 
 # clinica_veterinaria_v1.py
 
