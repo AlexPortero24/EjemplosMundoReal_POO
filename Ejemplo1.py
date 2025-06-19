@@ -3,22 +3,26 @@
 
 # clinica_veterinaria_v1.py
 
-# Clase Dueño
+# Clase que representa al dueño de una mascota
 
 class Dueño:
     def __init__(self, nombre, telefono):
+         # Guardamos el nombre y teléfono del dueño
         self.nombre = nombre
         self.telefono = telefono
     def mostrar_info(self):
+         # Muestra el nombre y el teléfono del dueño en pantalla
         print(f"Dueño: {self.nombre}, Teléfono: {self.telefono}")
 
-# Clase Mascota
+# Clase que representa a una mascota
 class Mascota:
     def __init__(self, nombre, especie, edad, dueño):
-        self.nombre = nombre
-        self.especie = especie
-        self.edad = edad
-        self.dueño = dueño
+        # Guardamos los datos básicos de la mascota
+        self.nombre = nombre    # nombre de la mascota
+        self.especie = especie  # perro, gato, etc.
+        self.edad = edad  # edad en años
+        self.dueño = dueño  # objeto de la clase Dueño
+        self.consultas = []   # lista vacía para guardar sus consultas médicas
 
     def mostrar_info(self):
         print(f"Mascota: {self.nombre}, Especie: {self.especie}, Edad: {self.edad}")
