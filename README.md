@@ -42,7 +42,7 @@ Representa una consulta veterinaria específica.
 
 ## 📂 Archivo principal
 
-- `clinica_veterinaria_v1.py`: Contiene toda la implementación del sistema y un ejemplo de uso al final del archivo.
+- `Ejemplo1.py`: Contiene toda la implementación del sistema y un ejemplo de uso al final del archivo.
 
 ## ▶️ Ejemplo de ejecución
 
